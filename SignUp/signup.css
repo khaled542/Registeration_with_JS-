@@ -1,0 +1,92 @@
+
+
+img
+{
+    width: 80%;
+}
+
+.input-container
+{
+    margin: 10px 0;
+}
+
+.form-input
+{
+    width: 100%;
+    background-color: #fff;
+    padding: 15px 20px;
+    margin: auto;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+input
+{
+    border: none;
+    background-color: inherit;
+    color: black;
+    width: 90%;
+    height: 100%;
+}
+
+input:focus
+{
+    outline: none;
+}
+
+.form-input i
+{
+    color: #9CADF2;
+    /* position: relative; */
+    border-right: 1px solid black;
+    padding-right: 5px;
+}
+
+::placeholder
+{
+    color: #3B3B3B;
+    text-align: left;
+}
+
+.alert-box
+{
+    /* text-align: center; */
+    margin-bottom: 30px;
+}
+
+.error
+{
+    text-align: center;
+    font-size: 18px;
+    background: red;
+    padding: 5px 20px;
+    margin: 10px 50px;
+    border-radius: 10px;
+    display: none;
+}
+
+/* ---------------------------- media query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 800px) {
+    
+    .container {
+
+        padding: 30px;
+    }
+
+    
+    .sec-img, .sec-text {
+
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    }
+
+    .sec-text
+    {
+        margin-top: 30px;
+    }
+}
+
+
+
